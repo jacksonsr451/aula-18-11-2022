@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #8ee3ef;
+    --secondary-color: #254e70;
+
+    --border-color: #37718e;
+
+    --background-color: #c33c54;
+    --text-color: #aef3e7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 16px;
+
+    font-family: 'Rubik Distressed', cursive;
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--secondary-color);
+}
+
+header {
+    margin-top: 1.6rem;
+}
+
+header > .header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+}
+
+header > .header-subtitle {
+    position: absolute;
+    top: 20vh;
+    left: 25vw;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    border: .2rem solid var(--border-color);
+}

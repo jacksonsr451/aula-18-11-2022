@@ -33,16 +33,22 @@ header {
 header > .header-title {
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: 'Russo One', sans-serif;
 }
 
-header > .header-subtitle {
-    position: absolute;
-    top: 20vh;
-    left: 25vw;
+header > .card  {
     margin-top: 1rem;
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: .2rem solid var(--border-color);
+    border-radius: .8rem;
+    padding: 1rem;
+}
+
+header > .card  > .header-subtitle {
     font-size: 3.5rem;
     font-weight: bold;
     color: var(--secondary-color);
-    border: .2rem solid var(--border-color);
+    font-family: 'Russo One', sans-serif;
 }
